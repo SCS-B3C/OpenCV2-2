@@ -9,7 +9,7 @@ add_subdirectory(flann)
 
 if(MSVC OR MINGW)
    if(NOT CMAKE_CL_64)
-      add_subdirectory(ffmpeg)
+#      add_subdirectory(ffmpeg)
    endif()
 endif()
 
